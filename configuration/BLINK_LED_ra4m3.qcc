@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "id": "8f1d8b7f-fa74-4238-a065-e4e36f0607f9",
+  "application": {
+    "osId": "baremetal",
+    "applicationId": "blinky",
+    "categoryId": "developerTraining"
+  },
+  "board": {
+    "id": "4ddb4a0a-adac-4ce7-8b69-45e2a85b1112",
+    "family": "RA",
+    "mcuKit": "ra4m3",
+    "boardType": "EK-RA4M3",
+    "imageSize": {
+      "width": 180,
+      "height": 350
+    },
+    "boardDimensions": {
+      "realWidth": 80,
+      "pixelWidth": 167,
+      "realHeight": 165,
+      "pixelHeight": 343
+    },
+    "connectionPoints": [
+      {
+        "connectionId": "pmod1",
+        "nodeInterface": "pmod",
+        "orientation": "left",
+        "connectionPoint": {
+          "x": 2,
+          "y": 40
+        },
+        "connectionPointUnit": "pixel"
+      },
+      {
+        "connectionId": "pmod2",
+        "nodeInterface": "pmod",
+        "orientation": "right",
+        "connectionPoint": {
+          "x": 178,
+          "y": 40
+        },
+        "connectionPointUnit": "pixel"
+      },
+      {
+        "connectionId": "qwiic",
+        "nodeInterface": "qwiic",
+        "orientation": "top",
+        "connectionPoint": {
+          "x": 90,
+          "y": 3
+        },
+        "connectionPointUnit": "pixel"
+      },
+      {
+        "connectionId": "grove1",
+        "nodeInterface": "grove",
+        "orientation": "top",
+        "connectionPoint": {
+          "x": 70,
+          "y": 3
+        },
+        "connectionPointUnit": "pixel"
+      },
+      {
+        "connectionId": "grove2",
+        "nodeInterface": "grove",
+        "orientation": "top",
+        "connectionPoint": {
+          "x": 114,
+          "y": 3
+        },
+        "connectionPointUnit": "pixel"
+      },
+      {
+        "connectionId": "mikrobus",
+        "nodeInterface": "mikrobus",
+        "orientation": "top",
+        "connectionPoint": {
+          "x": 90,
+          "y": 54
+        },
+        "connectionPointUnit": "pixel"
+      },
+      {
+        "connectionId": "arduino",
+        "nodeInterface": "arduino",
+        "orientation": "top",
+        "connectionPoint": {
+          "x": 90,
+          "y": 29
+        },
+        "connectionPointUnit": "pixel"
+      },
+      {
+        "connectionId": "gpio1",
+        "nodeInterface": "gpio",
+        "orientation": "left",
+        "connectionPoint": {
+          "x": 21,
+          "y": 272
+        },
+        "connectionPointUnit": "pixel"
+      },
+      {
+        "connectionId": "gpio2",
+        "nodeInterface": "gpio",
+        "orientation": "right",
+        "connectionPoint": {
+          "x": 159,
+          "y": 272
+        },
+        "connectionPointUnit": "pixel"
+      },
+      {
+        "connectionId": "gpio3",
+        "nodeInterface": "gpio",
+        "orientation": "bottom",
+        "connectionPoint": {
+          "x": 90,
+          "y": 336
+        },
+        "connectionPointUnit": "pixel"
+      }
+    ],
+    "position": {
+      "x": 739.625,
+      "y": 173
+    },
+    "application": {
+      "osId": "baremetal",
+      "applicationId": "blinky",
+      "categoryId": "developerTraining"
+    }
+  }
+}

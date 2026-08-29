@@ -1,0 +1,10 @@
+{
+  "boardType": "EK-RA4M3",
+  "application": {
+    "osId": "baremetal",
+    "applicationId": "blinky",
+    "categoryId": "developerTraining"
+  },
+  "pluginSensorTypes": [],
+  "pluginCameraTypes": []
+}
