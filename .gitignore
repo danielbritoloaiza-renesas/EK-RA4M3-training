@@ -1,3 +1,27 @@
 .api_xml
+
+# Build artifacts
 Debug/
 Debug/*
+*.o
+*.d
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.srec
+*.rpd
+*.sbd
+*.jlink
+*.in
+
+# IDE / generated files
+*.launch
+*.log
+*.settings
+*.user
+*.tmp
+
+# Local tool output
+/build-workspace/
