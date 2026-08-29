@@ -3,6 +3,7 @@
 # Build artifacts
 Debug/
 Debug/*
+build-workspace/
 *.o
 *.d
 *.obj
@@ -22,6 +23,15 @@ Debug/*
 *.settings
 *.user
 *.tmp
+*.swp
+*.bak
 
-# Local tool output
-/build-workspace/
+# Local generated project state
+/.metadata/
+/.settings/
+
+# If you do not want to track generated config exports
+# configuration/
+# ra_cfg/
+# ra_gen/
+
