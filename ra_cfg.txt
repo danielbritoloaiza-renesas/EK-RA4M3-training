@@ -388,7 +388,12 @@ FSP Configuration
     
   User Event Links
     
+  Linker Section Mappings
+    
   Module "I/O Port (r_ioport)"
+    Parameter Checking: Default (BSP)
+    
+  Module "External IRQ (r_icu)"
     Parameter Checking: Default (BSP)
     
   HAL
@@ -399,4 +404,14 @@ FSP Configuration
       3rd Port ELC Trigger Source: Disabled
       4th Port ELC Trigger Source: Disabled
       Pin Configuration Name: g_bsp_pin_cfg
+      
+    Instance "g_external_irq0 External IRQ (r_icu)"
+      Name: g_external_irq0
+      Channel: 10
+      Trigger: Falling
+      Digital Filtering: Disabled
+      Filter Source: PCLK filter
+      Digital Filtering Sample Clock (Only valid when Digital Filtering is Enabled): PCLK / 64
+      Callback: button_callback
+      Pin Interrupt Priority: Priority 12
       
