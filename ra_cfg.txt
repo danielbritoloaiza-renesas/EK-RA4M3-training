@@ -101,7 +101,7 @@ FSP Configuration
       P002 138 - - - - Disabled - - "ADC0: AN002; ADC1: AN102; ICU0: IRQ08" - None - - 
       P003 137 ADC0_AN003 ARDUINO_A2 - - "Analog mode" - None "ADC0: AN003" - IO - - 
       P004 136 - - - - Disabled - - "ADC0: AN004; ICU0: IRQ09" - None - - 
-      P005 135 GPIO SW1 - IRQ10 "Input mode" - None "ADC0: AN005; ICU0: IRQ10" - IO - - 
+      P005 135 ICU0_IRQ10 SW1 - IRQ10 "IRQ mode" - None "ADC0: AN005; ICU0: IRQ10" - IO - - 
       P006 134 GPIO SW2 - IRQ11 "Input mode" - None "ADC0: AN006; ICU0: IRQ11" - IO - - 
       P007 133 ADC0_AN007 ARDUINO_A3 - - "Analog mode" - None "ADC0: AN007" - IO - - 
       P008 132 GPIO PMOD1_INT - IRQ12 "Input mode" - "input pull-up" "ADC0: AN008; ICU0: IRQ12" - IO - - 

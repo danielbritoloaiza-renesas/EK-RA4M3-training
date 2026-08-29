@@ -53,6 +53,21 @@ void R_BSP_WarmStart (bsp_warm_start_event_t event)
 
         /* Configure pins. */
         R_IOPORT_Open(&g_ioport_ctrl, &g_bsp_pin_cfg);
+
+        /* Open and enable the external IRQ configured for P0_05 / IRQ10. */
+        fsp_err_t err = R_ICU_ExternalIrqOpen(&g_external_irq0_ctrl, &g_external_irq0_cfg);
+        if (FSP_SUCCESS == err)
+        {
+            err = R_ICU_ExternalIrqEnable(&g_external_irq0_ctrl);
+        }
+
+        if (FSP_SUCCESS != err)
+        {
+            while (1)
+            {
+                /* Failed to initialize interrupt; keep CPU here to debug. */
+            }
+        }
     }
 }
 

@@ -68,12 +68,12 @@
       <configSetting altId="gpt6.gtiocb.p408" configurationId="gpt6.gtiocb" peripheral="GPT6"/>
       <configSetting altId="iic1.scl.p512" configurationId="iic1.scl" peripheral="IIC1"/>
       <configSetting altId="iic1.sda.p511" configurationId="iic1.sda" peripheral="IIC1"/>
+      <configSetting altId="irq0.irq10.p005" configurationId="irq0.irq10" isUsedByDriver="true" peripheral="ICU0"/>
       <configSetting altId="p000.gpio_mode.gpio_mode_an" configurationId="p000.gpio_mode"/>
       <configSetting altId="p001.gpio_mode.gpio_mode_an" configurationId="p001.gpio_mode"/>
       <configSetting altId="p003.gpio_mode.gpio_mode_an" configurationId="p003.gpio_mode"/>
-      <configSetting altId="p005.input" configurationId="p005"/>
       <configSetting altId="p005.gpio_irq.gpio_irq_enabled" configurationId="p005.gpio_irq"/>
-      <configSetting altId="p005.gpio_mode.gpio_mode_in" configurationId="p005.gpio_mode"/>
+      <configSetting altId="p005.gpio_mode.gpio_mode_irq" configurationId="p005.gpio_mode"/>
       <configSetting altId="p006.input" configurationId="p006"/>
       <configSetting altId="p006.gpio_irq.gpio_irq_enabled" configurationId="p006.gpio_irq"/>
       <configSetting altId="p006.gpio_mode.gpio_mode_in" configurationId="p006.gpio_mode"/>
