@@ -6,11 +6,14 @@
         #endif
 /* Number of interrupts allocated */
 #ifndef VECTOR_DATA_IRQ_COUNT
-#define VECTOR_DATA_IRQ_COUNT    (0)
+#define VECTOR_DATA_IRQ_COUNT    (1)
 #endif
 /* ISR prototypes */
+void r_icu_isr(void);
 
 /* Vector table allocations */
+#define VECTOR_NUMBER_ICU_IRQ10 ((IRQn_Type) 0) /* ICU IRQ10 (External pin interrupt 10) */
+#define ICU_IRQ10_IRQn          ((IRQn_Type) 0) /* ICU IRQ10 (External pin interrupt 10) */
 /* The number of entries required for the ICU vector table. */
 #define BSP_ICU_VECTOR_NUM_ENTRIES (1)
 

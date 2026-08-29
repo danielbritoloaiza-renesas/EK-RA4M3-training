@@ -1,0 +1,37 @@
+.api_xml
+
+# Build artifacts
+Debug/
+Debug/*
+build-workspace/
+*.o
+*.d
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.srec
+*.rpd
+*.sbd
+*.jlink
+*.in
+
+# IDE / generated files
+*.launch
+*.log
+*.settings
+*.user
+*.tmp
+*.swp
+*.bak
+
+# Local generated project state
+/.metadata/
+/.settings/
+
+# If you do not want to track generated config exports
+# configuration/
+# ra_cfg/
+# ra_gen/
+
